@@ -1,0 +1,22 @@
+.AddCalculator {
+    padding: 20px;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+  }
+  #addButton {
+  color: #fff;
+  background: #006fcf;
+  border-radius: .5rem;
+  margin: 1px;
+  padding: .8125rem 1.875rem; 
+  }
+
+  #addButton:hover {
+    color:#006fcf;
+    background:  #fff;
+  }
+
+  #inputBox {
+    width: 25%;
+  }

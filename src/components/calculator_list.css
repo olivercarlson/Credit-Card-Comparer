@@ -1,0 +1,9 @@
+.CalculatorList {
+    display:flex;
+    flex-wrap: row;
+    margin: 0px;
+    padding: 20px;
+    border: 5px solid #cccccc;
+    background:gray;
+  }
+  
