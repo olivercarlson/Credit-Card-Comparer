@@ -1,6 +1,8 @@
 # Credit Card Comparer Tool!
 
-Tool is not (currently) deployed online but can be ran in an IDE by downloading or cloning this repo and runing "npm start".
+Tool is currently deployed online at: https://cc-comparer-tool.netlify.com/
+
+Or if you prefer, you can clone this repo and run it on your own hardware.
 
 # WHY?
 
