@@ -2,11 +2,11 @@
 
 Tool is not (currently) deployed online but can be ran in an IDE by downloading or cloning this repo and runing "npm start".
 
-## WHY?
+# WHY?
 
 This program was written to allow quick, easy and objective to comparison of various rewards earning credit cards that may consist of complex earning categories.
 
-# Credit Cards carry big risks:
+## Credit Cards carry big risks:
 
 Rewards credit cards can be provide great value but they also carry many drawbacks:
 
