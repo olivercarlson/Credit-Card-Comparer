@@ -33,3 +33,18 @@ Rewards credit cards can be provide great value but they also carry many drawbac
 
 -Or if you're paying interest, you would be better off not using a credit card at all! 
 
+# How To Use:
+
+-When loaded, the tool will display a sample credit card.
+
+-Make a name (or use default names)
+
+-Enter an approximate value of each point (it is recommend to not exceed ~1.5 cents per point in value here unless you know what you are doing). If using cashback, simply write 1.
+
+## It is recommended that the initial card be a flat 2% cashback card (no bonus categories) which contains all of your esimated yearly spending.
+
+-This will generate an approximate value in cash of how much money you will earn from using that (e.g $25,000 per year at 2% = $500 cashback).
+
+-After establishing a baseline, you can add up to 3 additional cards to see whether or not they offer any value.
+
+-Don't forget to include annual fees and other potential value from benefits such as checked bags but **when in doubt, aim to be conservative - the banks want you to overvalue the benefits**.   
