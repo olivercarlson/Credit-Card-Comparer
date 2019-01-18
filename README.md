@@ -1,44 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Credit Card Comparer Tool!
 
-## Available Scripts
+Tool is currently deployed online at: https://cc-comparer-tool.netlify.com/
 
-In the project directory, you can run:
+Or if you prefer, you can clone this repo and run it on your own hardware.
 
-### `npm start`
+# WHY?
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This program was written to allow quick, easy and objective to comparison of various rewards earning credit cards that may consist of complex earning categories.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Credit Cards carry big risks:
 
-### `npm test`
+Rewards credit cards can be provide great value but they also carry many drawbacks:
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Annual fees of up to $550+ per year.
 
-### `npm run build`
+-Complex earning structures (1 point everywhere, 4 points at grocery stores, 4 points on dining, 3 points airfare). 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Paying out of this world interest rates of 20%+ can lead to vicious cycles of increasing debt.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+-Survey after survey shows that Americans spend more money when they use a credit card compared to cash.   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Rewards credit cards can confuse even the more saavy because of the difficulty in ascertaining the value on what one "point" or one "mile" is actually worth. For example, most affiliate based travel blogs typically recommend paying your taxes with a credit card which comes at a fee of ~2-2.5% in order to get more rewards.
 
-### `npm run eject`
+>Assuming you use a regular airline credit, to pay a tax bill of $1,000, you would be in effect buying miles at 1,000 per $25. Given that airline miles generally don't break ~1.4-1.5 cents per point you are buying $14-$15 worth of airline miles for $25. That is a rip off!         
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## The Goal here is to help you answer these questions relatively quickly and easily: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-Are you getting more than the $450 fee worth of value out of your Chase Sapphire Reserve Card (CSR)?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-What if you used XYZ credit card instead? 
 
-## Learn More
+-What if you just used a simple 2% cashback everywhere card, would you lose out any money at all?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Or if you're paying interest, you would be better off not using a credit card at all! 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# How To Use:
+
+-When loaded, the tool will display a sample credit card.
+
+-Make a name (or use default names)
+
+-Enter an approximate value of each point (it is recommend to not exceed ~1.5 cents per point in value here unless you know what you are doing). If using cashback, simply write 1.
+
+## It is recommended that the initial card be a flat 2% cashback card (no bonus categories) which contains all of your esimated yearly spending.
+
+-This will generate an approximate value in cash of how much money you will earn from using that (e.g $25,000 per year at 2% = $500 cashback).
+
+-After establishing a baseline, you can add up to 3 additional cards to see whether or not they offer any value.
+
+-Don't forget to include annual fees and other potential value from benefits such as checked bags but **when in doubt, aim to be conservative - the banks want you to overvalue the benefits**.   
