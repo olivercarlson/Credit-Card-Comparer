@@ -1,33 +1,32 @@
-import React, { Component } from 'react';
-import './calculator_list.css';
-import Calculator from './calculator';
-import AddCalculator from './add_calculator';
+import React, { Component } from "react";
+import "./calculator_list.css";
+import Calculator from "./calculator";
+import AddCalculator from "./add_calculator";
 
-//add in custom name field for each card.
-//add in comparison on the right.
+//global i
 let i = 2;
 
 class CalculatorList extends Component {
     constructor(props) {
         super(props);
-        this.state = { cardName: ['Card #1'] };
+        this.state = { cardName: ["Card #1"] };
     }
 
-    addCalculator = (newCard) => {
-        if (newCard === '' && this.state.cardName.length < 4) {
+    addCalculator = newCard => {
+        if (newCard === "" && this.state.cardName.length < 4) {
             newCard = `Card #${i}`;
             i++;
-            this.setState(({cardName: [...this.state.cardName, newCard] }));
-        };
+            this.setState({ cardName: [...this.state.cardName, newCard] });
+        }
 
         if (this.state.cardName.length < 4) {
             this.setState({ cardName: [...this.state.cardName, newCard] });
         } else {
-            alert('Maximum 4 cards concurrently');
+            alert("Maximum 4 cards concurrently");
         }
     };
 
-    removeCard = (removeName) => {
+    removeCard = removeName => {
         const remainingCalculators = this.state.cardName.filter(name => {
             return name !== removeName;
         });
@@ -35,7 +34,13 @@ class CalculatorList extends Component {
     };
 
     renderCalculators = () => {
-        return this.state.cardName.map((name) => (<Calculator key={name} cardName={name} removeCard={this.removeCard} />));
+        return this.state.cardName.map(name => (
+            <Calculator
+                key={name}
+                cardName={name}
+                removeCard={this.removeCard}
+            />
+        ));
     };
 
     //add calculator needs to pass calculatorname in.
@@ -46,9 +51,8 @@ class CalculatorList extends Component {
                 <AddCalculator addCalculator={this.addCalculator} />
                 {this.renderCalculators()}
             </div>
-
         );
-    };
-};
+    }
+}
 
-export default CalculatorList;  
+export default CalculatorList;

@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<CalculatorList>
+  <div
+    className="CalculatorList"
+  >
+    <AddCalculator
+      addCalculator={[Function]}
+    >
+      <div
+        className="AddCalculator"
+      >
+        <p>
+           
+        </p>
+        <input
+          name="cardName"
+          onChange={[Function]}
+          placeholder="Card Name"
+          style={
+            Object {
+              "width": 150,
+            }
+          }
+          type="text"
+          value=""
+        />
+        <p />
+        <button
+          id="addButton"
+          onClick={[Function]}
+        >
+          Add a card!
+        </button>
+      </div>
+    </AddCalculator>
+    <Calculator
+      cardName="Card #1"
+      key="Card #1"
+      removeCard={[Function]}
+    >
+      <div
+        className="Calculator"
+      >
+        <p />
+        <form>
+          <span
+            className="section-header"
+          >
+             
+            Card #1
+             
+          </span>
+          <br />
+          <span
+            className="section-header"
+          >
+             Value Per Point: 
+          </span>
+          <input
+            max="10.0"
+            min="0.1"
+            name="valPoint"
+            onChange={[Function]}
+            step="0.1"
+            style={
+              Object {
+                "width": 65,
+              }
+            }
+            type="number"
+            value=""
+          />
+          <br />
+          <Collapsible
+            className="section-header"
+            classParentString="Collapsible"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger=" Non-Bonus Spending:"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+          >
+            <div
+              className="Collapsible section-header"
+            >
+              <span
+                className="Collapsible__trigger is-closed"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                style={null}
+                tabIndex={null}
+              >
+                 Non-Bonus Spending:
+              </span>
+              <div
+                className="Collapsible__contentOuter"
+                onTransitionEnd={[Function]}
+                style={
+                  Object {
+                    "WebkitTransition": "height 400ms linear",
+                    "height": 0,
+                    "msTransition": "height 400ms linear",
+                    "overflow": "hidden",
+                    "transition": "height 400ms linear",
+                  }
+                }
+              >
+                <div
+                  className="Collapsible__contentInner"
+                >
+                  <div
+                    className="form-field"
+                  >
+                     
+                    Earn Rate:
+                    <input
+                      max="50"
+                      min="0.1"
+                      name="nonCatER"
+                      onChange={[Function]}
+                      step="0.1"
+                      style={
+                        Object {
+                          "width": 65,
+                        }
+                      }
+                      type="number"
+                      value=""
+                    />
+                  </div>
+                  <label>
+                    <div
+                      className="form-field"
+                    >
+                       
+                      Dollars of Spend:
+                      <input
+                        max="1,000,000"
+                        min="100"
+                        name="nonCatSpend"
+                        onChange={[Function]}
+                        step="100"
+                        style={
+                          Object {
+                            "width": 100,
+                          }
+                        }
+                        type="number"
+                        value=""
+                      />
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </Collapsible>
+          <Collapsible
+            className="section-header"
+            classParentString="Collapsible"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="Bonus Category 1: "
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+          >
+            <div
+              className="Collapsible section-header"
+            >
+              <span
+                className="Collapsible__trigger is-closed"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                style={null}
+                tabIndex={null}
+              >
+                Bonus Category 1: 
+              </span>
+              <div
+                className="Collapsible__contentOuter"
+                onTransitionEnd={[Function]}
+                style={
+                  Object {
+                    "WebkitTransition": "height 400ms linear",
+                    "height": 0,
+                    "msTransition": "height 400ms linear",
+                    "overflow": "hidden",
+                    "transition": "height 400ms linear",
+                  }
+                }
+              >
+                <div
+                  className="Collapsible__contentInner"
+                >
+                  <div
+                    className="collapsible-BC1"
+                  >
+                    <label>
+                      <div
+                        className="form-field"
+                      >
+                        Earning Rate:
+                        <input
+                          max="50"
+                          min="0.1"
+                          name="bonusCat1ER"
+                          onChange={[Function]}
+                          step="0.1"
+                          style={
+                            Object {
+                              "width": 65,
+                            }
+                          }
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                    </label>
+                    <br />
+                    <label>
+                      <div
+                        className="form-field"
+                      >
+                        Spend:
+                        <input
+                          max="1,000,000"
+                          min="100"
+                          name="bonusCat1Spend"
+                          onChange={[Function]}
+                          step="100"
+                          style={
+                            Object {
+                              "width": 100,
+                            }
+                          }
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Collapsible>
+          <Collapsible
+            className="section-header"
+            classParentString="Collapsible"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="Bonus Category 2: "
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+          >
+            <div
+              className="Collapsible section-header"
+            >
+              <span
+                className="Collapsible__trigger is-closed"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                style={null}
+                tabIndex={null}
+              >
+                Bonus Category 2: 
+              </span>
+              <div
+                className="Collapsible__contentOuter"
+                onTransitionEnd={[Function]}
+                style={
+                  Object {
+                    "WebkitTransition": "height 400ms linear",
+                    "height": 0,
+                    "msTransition": "height 400ms linear",
+                    "overflow": "hidden",
+                    "transition": "height 400ms linear",
+                  }
+                }
+              >
+                <div
+                  className="Collapsible__contentInner"
+                >
+                  <div
+                    className="collapsible-BC2"
+                  >
+                    <label>
+                      <div
+                        className="form-field"
+                      >
+                        Earning Rate:
+                        <input
+                          max="50"
+                          min="0.1"
+                          name="bonusCat2ER"
+                          onChange={[Function]}
+                          step="0.1"
+                          style={
+                            Object {
+                              "width": 65,
+                            }
+                          }
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                    </label>
+                  </div>
+                  <label>
+                    <div
+                      className="form-field"
+                    >
+                      Spend:
+                      <input
+                        max="1,000,000"
+                        min="100"
+                        name="bonusCat2Spend"
+                        onChange={[Function]}
+                        step="100"
+                        style={
+                          Object {
+                            "width": 100,
+                          }
+                        }
+                        type="number"
+                        value=""
+                      />
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </Collapsible>
+          <Collapsible
+            className="section-header"
+            classParentString="Collapsible"
+            contentInnerClassName=""
+            contentOuterClassName=""
+            easing="linear"
+            lazyRender={false}
+            onClose={[Function]}
+            onClosing={[Function]}
+            onOpen={[Function]}
+            onOpening={[Function]}
+            open={false}
+            openedClassName=""
+            overflowWhenOpen="hidden"
+            tabIndex={null}
+            transitionCloseTime={null}
+            transitionTime={400}
+            trigger="Bonus Category 3:"
+            triggerClassName=""
+            triggerDisabled={false}
+            triggerOpenedClassName=""
+            triggerSibling={null}
+            triggerStyle={null}
+            triggerTagName="span"
+          >
+            <div
+              className="Collapsible section-header"
+            >
+              <span
+                className="Collapsible__trigger is-closed"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                style={null}
+                tabIndex={null}
+              >
+                Bonus Category 3:
+              </span>
+              <div
+                className="Collapsible__contentOuter"
+                onTransitionEnd={[Function]}
+                style={
+                  Object {
+                    "WebkitTransition": "height 400ms linear",
+                    "height": 0,
+                    "msTransition": "height 400ms linear",
+                    "overflow": "hidden",
+                    "transition": "height 400ms linear",
+                  }
+                }
+              >
+                <div
+                  className="Collapsible__contentInner"
+                >
+                  <div
+                    className="collapsible-BC3"
+                  >
+                    <label>
+                      <div
+                        className="form-field"
+                      >
+                        Earning Rate:
+                        <input
+                          max="50"
+                          min="0.1"
+                          name="bonusCat3ER"
+                          onChange={[Function]}
+                          step="0.1"
+                          style={
+                            Object {
+                              "width": 65,
+                            }
+                          }
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                    </label>
+                    <br />
+                    <label>
+                      <div
+                        className="form-field"
+                      >
+                        Spend:
+                        <input
+                          max="1,000,000"
+                          min="100"
+                          name="bonusCat3Spend"
+                          onChange={[Function]}
+                          step="100"
+                          style={
+                            Object {
+                              "width": 100,
+                            }
+                          }
+                          type="number"
+                          value=""
+                        />
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Collapsible>
+          <br />
+          <label>
+            <span
+              className="section-header"
+            >
+               Total Points Earned: 
+            </span>
+            <input
+              name="pointsReturned"
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": 100,
+                }
+              }
+              type="number"
+              value=""
+            />
+          </label>
+          <br />
+          <label>
+            <span
+              className="section-header"
+            >
+               Dollar Value Earned: 
+            </span>
+            <input
+              name="dollarsReturned"
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": 100,
+                }
+              }
+              type="number"
+              value=""
+              width="50%"
+            />
+          </label>
+        </form>
+        <button
+          onClick={[Function]}
+        >
+          Delete Card!
+        </button>
+      </div>
+    </Calculator>
+  </div>
+</CalculatorList>
+`;
