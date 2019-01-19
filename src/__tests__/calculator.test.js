@@ -1,6 +1,6 @@
 import React from "react";
 import Enzyme from "enzyme";
-import Calculator from "../calculator";
+import Calculator from "../components/calculator";
 
 const { mount, shallow } = Enzyme;
 

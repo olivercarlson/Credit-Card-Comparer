@@ -42,9 +42,14 @@ exports[` 1`] = `
     >
       <div
         className="Calculator"
+        id="Card #1"
+        name="Card #1"
       >
         <p />
-        <form>
+        <form
+          id="Card #1"
+          name="Card #1"
+        >
           <span
             className="section-header"
           >
@@ -488,7 +493,9 @@ exports[` 1`] = `
             <span
               className="section-header"
             >
-               Total Points Earned: 
+               
+              Total Points Earned:
+               
             </span>
             <input
               name="pointsReturned"
@@ -507,7 +514,9 @@ exports[` 1`] = `
             <span
               className="section-header"
             >
-               Dollar Value Earned: 
+               
+              Dollar Value Earned:
+               
             </span>
             <input
               name="dollarsReturned"
@@ -524,6 +533,7 @@ exports[` 1`] = `
           </label>
         </form>
         <button
+          className="deleteButton"
           onClick={[Function]}
         >
           Delete Card!

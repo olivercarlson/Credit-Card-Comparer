@@ -1,0 +1,19 @@
+diff --git a/src/App.test.js b/src/App.test.js
+index 268f268..7e59185 100644
+--- a/src/App.test.js
++++ b/src/App.test.js
+@@ -16,10 +16,10 @@ describe("Calculator component exists", () => {
+     });
+ 
+     //Check a shallow output of Add Card Event Handler fires and updates state correctly.
+-    it("Add Card Event Handler works", () => {
+-        shallowAdd.instance().addCalculator("Card #2");
+-        expect(shallowAdd.state("cardName")).toContain("Card #2");
+-    });
++    // it("Add Card Event Handler works", () => {
++    //     shallowAdd.instance().addCalculator("Card #2");
++    //     expect(shallowAdd.state("cardName")).toContain("Card #2");
++    // });
+     //Simulate User manually inputting new Card name, clicking submit and cardlist array properly populates
+     it("Manually Add Card produces correct array result", () => {
+         wrapList

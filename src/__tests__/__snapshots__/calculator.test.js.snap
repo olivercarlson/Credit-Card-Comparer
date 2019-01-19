@@ -449,7 +449,9 @@ exports[`Calculator Calculator component exists 1`] = `
         <span
           className="section-header"
         >
-           Total Points Earned: 
+           
+          Total Points Earned:
+           
         </span>
         <input
           name="pointsReturned"
@@ -468,7 +470,9 @@ exports[`Calculator Calculator component exists 1`] = `
         <span
           className="section-header"
         >
-           Dollar Value Earned: 
+           
+          Dollar Value Earned:
+           
         </span>
         <input
           name="dollarsReturned"
@@ -485,6 +489,7 @@ exports[`Calculator Calculator component exists 1`] = `
       </label>
     </form>
     <button
+      className="deleteButton"
       onClick={[Function]}
     >
       Delete Card!
